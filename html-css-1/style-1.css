@@ -1,0 +1,51 @@
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 0px;
+}
+header {
+  border: 2px solid black;
+  background-color: salmon;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-left: 30px
+}
+div {
+  margin-top: 100px;
+  display: inline;
+  text-align: center; 
+}
+h1 {
+  font-weight: bolder;
+  display: inline;
+}
+h2 {
+  display: inline;
+  font-size: medium;
+  font-weight: 500;
+  margin: 0px 30px
+}
+
+section {
+  padding: 20px;
+  border: 5px dotted black;
+  margin: 20px;
+}
+
+.img1 {
+  float: left;
+  max-height: 100px;
+  margin: 10px;
+}
+.img2 {
+  clear: none;
+  clear: unset;
+  float: right;
+  margin: 15px;
+  max-height: 120px;
+}
+p {
+  text-align: justify;
+}

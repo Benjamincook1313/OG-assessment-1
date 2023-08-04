@@ -1,0 +1,133 @@
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  margin: 0px;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color:aquamarine;
+  display: block;
+}
+h1 {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px
+}
+h2 {
+  margin: 5px;
+}
+
+section {
+  margin: 20px;
+}
+
+.dotted {
+  border: 5px dotted black;
+  height: 20%;
+  padding: 20px
+}
+
+.purple {
+  background-color: indigo;
+  border: 3px solid red;
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+}
+.blue {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 2px solid black;
+  display: inline-block;
+  box-shadow: 10px 10px 10px;
+  margin: 0px 20px;
+}
+.pink {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  display: inline-block;
+  background-color: palevioletred;
+}
+
+.crcl {
+  border-radius: 50%;
+  border: 1px solid black;
+  display: block;
+  position: relative;
+}
+.head {
+  height: 70px;
+  width: 70px;
+  margin-left: 25px;
+}
+.center {
+  margin-left: 12px;
+  height: 100px;
+  width: 100px;
+}
+.bottom {
+  height: 130px;
+  width: 130px;
+}
+.coal{
+  max-height: 15px;
+  position: relative;
+  top: 12px;
+  left: 13px;
+  margin: 2px;
+}
+.crt {
+  max-height: 20px;
+  position: absolute;
+  top: 32px;
+  left: 20px;
+}
+.coal-btn {
+  max-height: 15px;
+  display: block;
+  margin: 10px;
+  position: relative;
+  left: 32px;
+  top: 5px;
+}
+
+.square-beige {
+  height: 200px;
+  width: 200px;
+  background-color: beige;
+  border: 1px solid black;
+}
+.circle-green {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  background-color: darkgreen;
+  position: relative;
+  border: 1px solid black;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.circle-blue {
+  background-color: blue;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  text-align: center;
+}
+.fish {
+  max-height: 30px;
+  margin-top:23px
+}
+p {
+  margin: 8px 0px;
+  margin-left: 15px;
+}
